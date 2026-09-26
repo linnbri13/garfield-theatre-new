@@ -5,16 +5,16 @@
    ============================================================ */
 
 :root {
-  --bg: #0e0a1a;
-  --bg-2: #140f24;
-  --surface: #191228;
-  --surface-2: #221838;
-  --line: #2c2148;
+  --bg: #1a1430;
+  --bg-2: #221a3d;
+  --surface: #2a2049;
+  --surface-2: #332756;
+  --line: #3f3068;
   --accent: #5a2ea6;
   --accent-hover: #6d3cc9;
-  --accent-light: #8b5cf6;
-  --text: #f5f3fa;
-  --muted: #b8a8d9;
+  --accent-light: #9b7bf0;
+  --text: #f7f5fb;
+  --muted: #c2b4e2;
   --gold: #d9a441;
   --gold-hover: #e6b968;
   --serif: "Playfair Display", Georgia, "Times New Roman", serif;
@@ -74,13 +74,13 @@ a.logo::after,
   position: fixed;
   top: 0; left: 0; right: 0;
   z-index: 100;
-  background: rgba(14, 10, 26, 0.82);
+  background: rgba(26, 20, 48, 0.82);
   backdrop-filter: blur(8px);
   border-bottom: 1px solid transparent;
   transition: background .3s ease, border-color .3s ease;
 }
 .site-header.solid {
-  background: rgba(14, 10, 26, 0.97);
+  background: rgba(26, 20, 48, 0.97);
   border-bottom-color: var(--line);
 }
 .nav-inner {
@@ -447,7 +447,7 @@ a.logo:hover .logo-img { opacity: .8; }
   position: absolute;
   left: 0; right: 0; bottom: 0;
   padding: 16px;
-  background: linear-gradient(transparent, rgba(10, 7, 20, .95) 55%);
+  background: linear-gradient(transparent, rgba(20, 15, 40, .95) 55%);
   font-size: 14px;
   font-weight: 600;
   border-top: 1px solid var(--line);
@@ -563,7 +563,7 @@ a.logo:hover .logo-img { opacity: .8; }
     position: absolute;
     top: 100%;
     left: 0; right: 0;
-    background: rgba(14, 10, 26, .99);
+    background: rgba(26, 20, 48, .99);
     border-bottom: 1px solid var(--line);
     flex-direction: column;
     align-items: stretch;
